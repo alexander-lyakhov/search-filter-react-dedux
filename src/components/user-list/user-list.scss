@@ -1,0 +1,58 @@
+
+.user-list__item {
+    border-bottom: 1px solid #808080;
+    width: 100%;
+    height: 112px;
+    cursor: pointer;
+
+    &:hover {
+        .thumbnail {
+            background: #c93;
+            transform: scale(1.25, 1.25);
+        }
+        .name {
+            color: #fff;
+        }
+    }
+
+    &:last-child {
+        border: none;
+    }
+}
+
+.thumbnail {
+    background: #c0c0c0;
+    box-shadow: 0 3px 4px 2px rgba(0, 0, 0, 0.3);
+    width: 72px;
+    height: 72px;
+    margin: 20px 8px 0 0;
+    transform: scale(1, 1);
+    transition: all 0.1s;
+    float: left;
+
+    img {
+        background: #808080;
+        border: 1px solid #000;
+        width: 64px;
+        height: 64px;
+        margin: 4px;    }
+}
+
+.user-info {
+    height: 80px;
+    margin: 16px 0 0 8px;
+    float: left;
+
+    .name {
+        font: 28px Verdana, Georgia;
+        color: #ccc;
+        letter-spacing: 1px;
+        height: 56px;
+        line-height: 56px;
+    }
+
+    .headline {
+        color: #9ce;
+        height: 24px;
+    }
+}

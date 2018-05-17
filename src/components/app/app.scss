@@ -1,0 +1,18 @@
+
+body {
+    font: 13px verdana;
+    color: #eee;
+    background: $bgBody;
+    height: 100%;
+    position: relative;
+    overflow-y:scroll;
+}
+
+.main {
+    background: $bgMain;
+    max-width: 930px;
+    min-width: $minWidth;
+    min-height: 100vh;
+    margin: 0 auto 0 auto;
+    padding: 64px 16px 144px;
+}
