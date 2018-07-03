@@ -40,6 +40,7 @@ class PageHeader extends baseComponent
 function mapDispatchToProps(dispatch) {
     return {
         search: function(query) {
+            console.log('query', query);
             dispatch({type: 'QUERY.UPDATE', query: query})
         }
     };
